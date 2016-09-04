@@ -57,3 +57,14 @@ body {
 	padding: 25px;
 
 }
+
+.user {
+	font-weight: bold;
+}
+
+.time-stamp {
+	font-style: italic;
+	font-size: 10px;
+	float: right;
+	padding-top: 50px;
+}

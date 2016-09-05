@@ -17,7 +17,7 @@ $(document).ready(function() {
     }
 
     $('.user').on('click', function() {
-      makeTweet($(this).data("user"))
+      makeTweet($(this).data('user'));
     });
 
     function tweetMessage() {

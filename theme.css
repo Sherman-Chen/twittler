@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	background-color: cyan;
+	background-color: gray;
 	font-family: arial, sans-serif;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .head a, a:visited {
-	color: blue;
+	color: teal;
 	text-decoration: none;
 	font-size: 50px;
 }
@@ -33,8 +33,16 @@ body {
 }
 
 .refresh-btn {
+	width: 100px;
+	border: 1px solid black;
 	border-radius: 10px;
 	color: blue;
+	outline: none;
+}
+
+.refresh-btn:active {
+	color: red;
+	background-color: darkgray;
 }
 
 .feed {
@@ -51,7 +59,7 @@ body {
 .tweet {
 	height: 100px;
 	width: 800px;
-	border: 3px solid blue;
+	border: 3px solid teal;
 	border-radius: 5px;
 	margin: 10px auto;
 	padding: 25px;
@@ -64,7 +72,7 @@ body {
 
 .time-stamp {
 	font-style: italic;
-	font-size: 10px;
+	font-size: 8px;
 	float: right;
-	padding-top: 50px;
+	padding-top: 40px;
 }
